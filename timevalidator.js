@@ -1,6 +1,5 @@
 function checkFormat(input) {
-    if((input===undefined)||(input == null)){
-        console.log('here')
+    if((input===undefined)||(input === null)){
         return false 
     } 
 
