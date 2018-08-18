@@ -3,7 +3,7 @@ function checkFormat(input) {
         return false 
     } 
 
-    const regExp = /^\d+\-\d{1,2}\-\d{1,2}\T([0-1][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])\.\d{1,3}\Z$/
+    const regExp = /^\d+\-\d{1,2}\-\d{1,2}\T([0-1][0-9]|2[0-3]):([0-5][0-9]):([0-5][0-9])\.\d+\Z$/
     
     return regExp.test(input);
 }
