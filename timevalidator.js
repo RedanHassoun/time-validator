@@ -18,5 +18,5 @@ let strArray = ['2015-4-22T16:18:32.123Z',
                 null]
 
 for(let i=0;i<strArray.length;i++){
-    console.log(strArray[i]+' is : '+checkFormat(strArray[i]))
+    console.log(`${strArray[i]} is : ${checkFormat(strArray[i])}`)
 }
